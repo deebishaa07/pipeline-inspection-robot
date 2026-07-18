@@ -96,7 +96,7 @@ The prototype incorporates:
 - Lightweight chassis
 
 <p align="center">
-<img src="images/prototype.jpg" width="550">
+<img src="images/prototype.png" width="550">
 </p>
 
 ---
