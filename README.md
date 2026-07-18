@@ -1,37 +1,39 @@
 # 🚀 Design and Development of an In-Pipe Inspection Robot
 
-> **Academic Team Project | Mechanical Design | Robotics | Mechatronics Engineering**
+> **Academic Engineering Project | Mechatronics | Robotics | Mechanical Design**
 
-A compact and lightweight robotic system developed for inspecting **small-diameter (6–8 inch) cylindrical pipelines**. The robot uses a spring-loaded tri-wheel mechanism to achieve stable navigation inside pipelines while carrying a camera for internal inspection.
+A compact and lightweight robotic system designed for inspecting **small-diameter (6–8 inch) cylindrical pipelines**. The robot utilizes a spring-loaded tri-wheel mechanism to provide stable movement inside pipelines while carrying a camera for internal visual inspection.
 
-This repository is maintained by **Deebishaa S** as part of my engineering portfolio to showcase my work and contributions to this academic project.
+This repository is maintained by **Deebishaa S** as part of my engineering portfolio to showcase my contributions to the project.
 
 ---
 
 # 📖 Project Overview
 
-Industrial pipelines require periodic inspection to identify defects such as corrosion, cracks, leakages, and blockages. Conventional inspection methods are often expensive, time-consuming, and unsafe in confined environments.
+Pipeline inspection is essential for identifying corrosion, cracks, leakages, and blockages in industrial pipelines. Traditional inspection methods are often expensive, time-consuming, and difficult to perform in confined spaces.
 
-This project presents the design and development of a compact in-pipe inspection robot capable of travelling through **6–8 inch pipelines** using a spring-loaded traction mechanism. The system was designed using CAD tools, validated through simulations, and implemented as a working prototype.
+This project presents the design and development of a compact in-pipe inspection robot capable of travelling inside **6–8 inch pipelines**. The robot employs a spring-loaded wheel mechanism that maintains continuous contact with the inner pipe surface, ensuring stable navigation in both horizontal and vertical orientations.
+
+The mechanical design was developed using CAD software, validated through engineering simulations, and implemented as a working prototype.
 
 ---
 
 # ❗ Problem Statement
 
-Existing inspection robots are generally designed for larger pipelines and have limited adaptability to smaller pipe diameters.
+Industrial pipelines require periodic inspection to ensure operational safety and reliability. Existing inspection robots are often designed for larger pipelines and are not suitable for smaller diameters.
 
-The objective of this project was to design a compact, lightweight, and reliable robotic platform capable of stable movement inside small-diameter cylindrical pipelines for visual inspection applications.
+The objective of this project was to develop a compact, lightweight, and reliable robotic platform capable of inspecting small-diameter cylindrical pipelines while maintaining stability and traction throughout its movement.
 
 ---
 
 # 🎯 Objectives
 
-- Design a compact inspection robot
-- Navigate inside 6–8 inch pipelines
-- Maintain continuous wheel contact using spring-loaded arms
-- Improve traction and stability
-- Develop a lightweight modular structure
-- Enable real-time visual inspection
+- Design a compact in-pipe inspection robot.
+- Navigate efficiently inside 6–8 inch cylindrical pipelines.
+- Maintain continuous wheel contact using a spring-loaded mechanism.
+- Improve stability and traction during movement.
+- Develop a lightweight and modular robotic structure.
+- Enable real-time visual inspection using a camera module.
 
 ---
 
@@ -43,11 +45,11 @@ The objective of this project was to design a compact, lightweight, and reliable
 
 ---
 
-# 🏗️ Design Evolution
+# 🏗️ Mechanical Design Evolution
 
 ## Initial Design
 
-The first concept employed a rack-and-pinion based adjustable mechanism for adapting to varying pipe diameters.
+The initial concept employed a rack-and-pinion based adjustable mechanism for adapting to different pipe diameters.
 
 <p align="center">
 <img src="images/first-design.png" width="650">
@@ -57,7 +59,7 @@ The first concept employed a rack-and-pinion based adjustable mechanism for adap
 
 ## Final Design
 
-The final design adopted spring-loaded arms with rear support wheels, resulting in improved traction, simplified construction, and better adaptability.
+The final design replaced the rack-and-pinion mechanism with spring-loaded arms, improving adaptability, reducing mechanical complexity, and enhancing overall stability.
 
 <p align="center">
 <img src="images/final-design.png" width="650">
@@ -67,14 +69,14 @@ The final design adopted spring-loaded arms with rear support wheels, resulting 
 
 # 🔩 Spring-Loaded Traction Mechanism
 
-A spring-loaded wheel mechanism was designed to maintain continuous contact with the inner surface of the pipeline.
+The spring-loaded wheel assembly maintains continuous contact with the inner surface of the pipeline.
 
-The design improved
+This mechanism improves:
 
-- Stability
-- Adaptability
-- Traction
-- Ease of manufacturing
+- Stable navigation
+- Wheel traction
+- Adaptability to pipe variations
+- Mechanical simplicity
 
 <p align="center">
 <img src="images/spring-design.png" width="550">
@@ -84,12 +86,12 @@ The design improved
 
 # 🤖 Prototype
 
-A functional prototype was fabricated to validate the proposed design.
+A functional prototype was fabricated to validate the proposed mechanical design.
 
-The prototype integrates
+The prototype incorporates:
 
 - DC geared motors
-- Spring-loaded wheel assembly
+- Spring-loaded wheel mechanism
 - Camera mounting arrangement
 - Lightweight chassis
 
@@ -101,12 +103,14 @@ The prototype integrates
 
 # 📊 Engineering Analysis
 
-The robot design was validated using engineering calculations including
+The robot design was validated using engineering calculations and simulations.
 
-- Spring stiffness
-- Spring force
-- Weight estimation
+Major analyses included:
+
+- Spring stiffness calculation
+- Spring force analysis
 - Torque calculation
+- Weight estimation
 - Material selection
 - Structural validation
 
@@ -114,59 +118,57 @@ The robot design was validated using engineering calculations including
 
 # 🧪 Simulation Results
 
-### Deformation Analysis
+## Deformation Analysis
 
 <p align="center">
 <img src="images/deformation-analysis.png" width="600">
 </p>
 
-The deformation analysis verified the structural integrity of the spring mechanism under expected operating loads.
+The deformation study verified that the spring mechanism can safely withstand expected operating loads.
 
 ---
 
-### Stress Analysis
+## Stress Analysis
 
 <p align="center">
 <img src="images/stress-analysis.png" width="600">
 </p>
 
-Stress analysis confirmed that the selected spring configuration operates within acceptable limits.
+Stress analysis confirmed that the spring operates within acceptable stress limits, supporting reliable performance.
 
 ---
 
 # 🛠️ Technologies Used
 
-| Category | Tools |
-|----------|--------|
-| CAD | Fusion 360 |
+| Category | Tools / Components |
+|----------|--------------------|
+| CAD Design | Fusion 360 |
 | Simulation | SolidWorks |
-| Components | DC Motors, Springs, Wheels |
-| Camera | Raspberry Pi Camera |
+| Mechanical Components | DC Geared Motors, Springs, Wheels |
+| Camera | Raspberry Pi Camera Module |
 | Manufacturing | 3D Printing |
-| Engineering | Mechanical Design, Material Selection |
+| Engineering | Mechanical Design, Engineering Calculations |
 
 ---
 
 # ✨ Key Features
 
 - Compact design for 6–8 inch pipelines
-- Spring-loaded traction mechanism
+- Spring-loaded tri-wheel traction mechanism
 - Lightweight modular construction
-- Stable horizontal and vertical navigation
+- Stable movement in horizontal and vertical pipelines
 - Real-time inspection capability
 - Engineering validated design
-- Prototype developed and tested
+- Prototype development and testing
 
 ---
 
 # 👩‍💻 My Contributions
 
-This repository showcases **my contributions** to the academic project.
-
-My major responsibilities included:
+This repository showcases my contributions to the project. My work included:
 
 - Mechanical design and concept development
-- Fusion 360 CAD modelling
+- CAD modelling
 - Design optimization
 - Engineering calculations
 - Material selection
@@ -180,47 +182,33 @@ My major responsibilities included:
 
 - Water distribution pipelines
 - Oil & Gas industries
-- Chemical process plants
-- Sewer inspection
+- Chemical processing plants
 - Industrial maintenance
-- Robotics research
+- Sewer inspection
+- Robotics research and education
 
 ---
 
 # 🚀 Future Improvements
 
-Future enhancements include
+Potential future enhancements include:
 
-- Wireless control
+- Wireless remote control
 - Autonomous navigation
 - AI-based defect detection
-- SLAM mapping
+- SLAM-based pipeline mapping
 - Ultrasonic crack detection
-- Thermal imaging
-- IoT monitoring
+- Thermal imaging camera
+- IoT-based monitoring
 - Waterproof enclosure
 
 ---
 
-# 🎓 Academic Project Information
+# 🎓 Academic Project
 
-This project was completed as part of the **B.Tech Mechatronics Engineering** curriculum at **SASTRA Deemed University** during the academic year **2024–2025**.
+This project was completed as part of the **B.Tech Mechatronics Engineering** curriculum at **SASTRA Deemed University** under faculty supervision.
 
-### Team Members
-
-- Deebishaa S
-- Dhivya A
-- Sanddhya G
-
-### Faculty Supervisor
-
-Dr. R. M. Kuppan Chetty
-
-Professor
-
-School of Mechanical Engineering
-
-SASTRA Deemed University
+This repository has been created to showcase my engineering work and contributions as part of my professional portfolio.
 
 ---
 
@@ -230,10 +218,8 @@ SASTRA Deemed University
 
 B.Tech Mechatronics Engineering
 
-This repository is maintained as part of my professional engineering portfolio.
-
 ---
 
 # 📌 Disclaimer
 
-This repository showcases my contributions to an academic team project completed as part of the B.Tech Mechatronics Engineering curriculum. It is intended for educational and portfolio purposes, with due acknowledgment to the project team and faculty supervisor.
+This repository is intended solely for educational and portfolio purposes. It highlights my contributions to an academic engineering project and does not include the complete university project report or other academic submission materials.
